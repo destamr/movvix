@@ -7,19 +7,21 @@
 
       <v-spacer></v-spacer>
 
-      <m-text-field
-        placeholder="Search"
-        append-icon="mdi-magnify"
-        class="mr-2"
-      />
+      <v-col cols="4">
+        <m-text-field
+          placeholder="Search"
+          append-icon="mdi-magnify"
+          class="mr-2"
+        />
+      </v-col>
 
-      <div>
-        <v-tabs background-color="dark" hide-slider right>
-          <v-tab v-for="(menu, index) in menus" :key="index">
-            <h5 class="text-capitalize">{{ menu.title }}</h5>
-          </v-tab>
-        </v-tabs>
-      </div>
+      <!--      <div>-->
+      <!--        <v-tabs background-color="dark" hide-slider right>-->
+      <!--          <v-tab v-for="(menu, index) in menus" :key="index">-->
+      <!--            <h5 class="text-capitalize">{{ menu.title }}</h5>-->
+      <!--          </v-tab>-->
+      <!--        </v-tabs>-->
+      <!--      </div>-->
     </v-app-bar>
 
     <v-main>
@@ -28,8 +30,9 @@
       </v-fade-transition>
     </v-main>
 
-    <v-footer color="dark" app>
-      <span>&copy; {{ new Date().getFullYear() }}</span>
+    <v-footer color="dark">
+      <v-spacer />
+      <span>&copy; {{ new Date().getFullYear() }} - Daisy Tamara</span>
     </v-footer>
   </v-app>
 </template>
