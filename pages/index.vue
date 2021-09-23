@@ -29,6 +29,7 @@
                     depressed
                     class="text-capitalize font-weight-bold"
                     color="primary"
+                    :to="recentMovie.imdbID"
                     >See Details</v-btn
                   >
                 </div>
@@ -116,31 +117,31 @@ export default {
       'tt6566576',
       'tt9701940',
       'tt9701942',
-      'tt0045152', // Signin in the Rain
-      'tt0111161', // The Shawshank Redemption
-      'tt0108778', // Friends
-      'tt0110413', // Léon: The Professional
-      'tt0304141', // Harry Potter and the Prisoner of Azkaban
-      'tt0434409', // V for Vendetta
-      'tt0460649', // How I Met Your Mother
-      'tt0972534', // iCarly
-      'tt0898266', // The Big Bang Theory
-      'tt1187043', // 3 Idiots
-      'tt1475582', // Sherlock
-      'tt1504320', // The King's Speech
-      'tt1375666', // Inception
-      'tt0848228', // The Avengers
-      'tt1670345', // Now You See Me
-      'tt0816692', // Interstellar
-      'tt3107288', // The Flash
-      'tt2084970', // The Imitation Game
-      'tt4052886', // Lucifer
-      'tt1837492', // 13 Reasons Why
-      'tt4555426', // Darkest Hour
-      'tt3262342', // Loving Vincent
-      'tt7668518', // The Protector
-      'tt6966692', // Green Book
-      'tt1727824', // Bohemian Rhapsody
+      'tt0045152',
+      'tt0111161',
+      'tt0108778',
+      'tt0110413',
+      'tt0304141',
+      'tt0434409',
+      'tt0460649',
+      'tt0972534',
+      'tt0898266',
+      'tt1187043',
+      'tt1475582',
+      'tt1504320',
+      'tt1375666',
+      'tt0848228',
+      'tt1670345',
+      'tt0816692',
+      'tt3107288',
+      'tt2084970',
+      'tt4052886',
+      'tt1837492',
+      'tt4555426',
+      'tt3262342',
+      'tt7668518',
+      'tt6966692',
+      'tt1727824',
     ]
 
     // eslint-disable-next-line array-callback-return
