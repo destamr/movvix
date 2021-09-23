@@ -1,13 +1,13 @@
 <template>
   <v-app dark>
     <v-app-bar color="dark" fixed app>
-      <v-toolbar-title to="/">
+      <nuxt-link to="/">
         <v-img :src="logo" width="100" contain />
-      </v-toolbar-title>
+      </nuxt-link>
 
       <v-spacer></v-spacer>
 
-      <v-col cols="4">
+      <v-col cols="8" md="4">
         <m-text-field
           placeholder="Search"
           append-icon="mdi-magnify"
